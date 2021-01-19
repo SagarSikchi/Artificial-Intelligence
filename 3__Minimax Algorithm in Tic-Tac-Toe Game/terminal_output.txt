@@ -1,0 +1,63 @@
+For 'Blank' ---> 0
+For 'X' -------> 1 MINIMIZER
+For 'O' -------> 2 MAXIMIZER
+
+2 2 1
+1 0 2
+0 0 1
+
+
+Enter who's turn next (1 for X) or (2 for O): 2
+Level: 0                Initial Board: 2 | 2 | 1 | 1 | 0 | 2 | 0 | 0 | 1 |
+
+
+Level: 1                Who's turn: 2           Key: L0
+
+Board: 2 | 2 | 1 | 1 | 0 | 2 | 2 | 0 | 1 |      Score: -4       Board Index: 6
+Board: 2 | 2 | 1 | 1 | 0 | 2 | 0 | 2 | 1 |      Score: -25      Board Index: 7
+Board: 2 | 2 | 1 | 1 | 2 | 2 | 0 | 0 | 1 |      Score: -25      Board Index: 4
+
+
+
+Level: 2                Who's turn: 1           Key: L10
+
+Board: 2 | 2 | 1 | 1 | 0 | 2 | 2 | 1 | 1 |      Score: -2       Board Index: 7
+Board: 2 | 2 | 1 | 1 | 1 | 2 | 2 | 0 | 1 |      Score: -4       Board Index: 4
+
+
+
+Level: 2                Who's turn: 1           Key: L11
+
+Board: 2 | 2 | 1 | 1 | 0 | 2 | 1 | 2 | 1 |      Score: -3       Board Index: 6
+Board: 2 | 2 | 1 | 1 | 1 | 2 | 0 | 2 | 1 |      Score: -25      Board Index: 4
+
+
+
+Level: 2                Who's turn: 1           Key: L12
+
+Board: 2 | 2 | 1 | 1 | 2 | 2 | 0 | 1 | 1 |      Score: -25      Board Index: 7
+Board: 2 | 2 | 1 | 1 | 2 | 2 | 1 | 0 | 1 |      Score: -3       Board Index: 6
+
+
+
+
+Q. What are best moves then? Answer just Board Index.
+
+
+
+2 2 1
+1 0 2
+0 0 1
+
+
+2 2 1                               2 2 1                           2 2 1
+1 2 2                               1 0 2                           1 0 2
+0 0 1                               2 0 1                           0 2 1
+
+-25                                 -4                              -25
+
+2 2 1       2 2 1                   2 2 1       2 2 1               2 2 1       2 2 1
+1 2 2       1 2 2                   1 1 2       1 0 2               1 1 2       1 0 2
+1 0 2       0 1 2                   2 0 1       2 1 1               0 2 1       1 2 1
+
+-3          -25                     -4          -2                  -25         -3
