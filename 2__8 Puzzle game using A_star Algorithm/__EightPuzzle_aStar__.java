@@ -1,8 +1,6 @@
 /*
  * AI Lab Assignment 2: 8-Puzzle Game Implementation using A* Algorithm
  * Name: Sagar Sikchi
- * Roll No.: 65
- * GR No.: 11810844
  */
 
 import java.util.Scanner;
