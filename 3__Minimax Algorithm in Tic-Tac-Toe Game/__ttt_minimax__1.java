@@ -1,8 +1,6 @@
 /*
  * AI Lab Assignment 3: Tic Tac Toe Implementation with Minimax Algorithm
  * Name: Sagar Sikchi
- * Roll No.: 65
- * GR No.: 11810844
  */
 
 import java.util.ArrayList;
