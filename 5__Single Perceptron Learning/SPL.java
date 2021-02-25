@@ -1,3 +1,8 @@
+/* 
+ * Lab Assignment 5: Single Perceptron Learning
+ * Name: Sagar Sikchi
+ */
+
 public class SPL {
     private static int learning_rate_C = 1;
     private static int learning_signal_R = 0;
