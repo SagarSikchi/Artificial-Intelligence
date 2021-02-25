@@ -1,9 +1,6 @@
 /*
  * Lab6: Design a Fuzzy Set for numbers close to 5
  * Name: Sagar Sikchi
- * Roll No. 65
- * Batch B2
- * 
  */
 
 public class FuzzySet {
